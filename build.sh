@@ -13,7 +13,7 @@ if ! test -d tuvok ; then
   svn co \
     --non-interactive \
     --trust-server-cert \
-    https://gforge.sci.utah.edu/svn/imagevis3d/
+    https://gforge.sci.utah.edu/svn/Tuvok tuvok
 else
   if test -d tuvok/.svn ; then
     echo "Updating tuvok..."
